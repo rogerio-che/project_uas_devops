@@ -12,10 +12,10 @@ Future main() async {
   if (kIsWeb) {
     await Firebase.initializeApp(
       options: FirebaseOptions(
-        apiKey: "AIzaSyCsHDQtI9DItQgSqwy45_y2xG9tDGxuER8",
-        appId: "1:540215271818:web:8b22d4aee01acdce862873",
-        messagingSenderId: "540215271818",
-        projectId: "flutter-firebase-9c136",
+        apiKey: "AIzaSyCD0-07KzozgoXsF2KYxs7ZQXD8w8QhOLs",
+        appId: "1:676907713750:web:b609132679ddb4d2fb7577",
+        messagingSenderId: "676907713750",
+        projectId: "flutter-firebase-series-858ab",
         // Your web Firebase config options
       ),
     );
@@ -28,15 +28,14 @@ Future main() async {
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Flutter Firebase',
       routes: {
         '/': (context) => SplashScreen(
-          // Here, you can decide whether to show the LoginPage or HomePage based on user authentication
-          child: LoginPage(),
-        ),
+              // Here, you can decide whether to show the LoginPage or HomePage based on user authentication
+              child: LoginPage(),
+            ),
         '/login': (context) => LoginPage(),
         '/signUp': (context) => SignUpPage(),
         '/home': (context) => HomePage(),
