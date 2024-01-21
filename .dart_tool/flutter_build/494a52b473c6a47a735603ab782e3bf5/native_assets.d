@@ -1,0 +1,1 @@
+ C:\\Users\\User\\Desktop\\Flutter-Firebase-Series-main\\Flutter-Firebase-Series-main\\.dart_tool\\flutter_build\\494a52b473c6a47a735603ab782e3bf5\\native_assets.yaml: 
